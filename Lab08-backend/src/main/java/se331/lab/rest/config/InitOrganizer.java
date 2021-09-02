@@ -15,40 +15,24 @@ public class InitOrganizer implements ApplicationListener<ApplicationReadyEvent>
     @Override
     public void onApplicationEvent(ApplicationReadyEvent applicationReadyEvent) {
         organizerRepository.save(Organizer.builder()
-                .category("Academic")
-                .title("Midterm Exam")
-                .description("A time for taking the exam")
-                .location("CAMT Building")
-                .date("3rd Sept")
-                .time("3.00-4.00 pm.")
-                .petAllowed(false)
-                .organizer("CAMT").build());
+                .id(123L)
+                .name("Meow Town")
+                .address("Kat Laydee")
+                .build());
         organizerRepository.save(Organizer.builder()
-                .category("Academic")
-                .title("Commencement Day")
-                .description("A time for celebration")
-                .location("CAMT Convention hall")
-                .date("21th Jan")
-                .time("8.00am-4.00 pm.")
-                .petAllowed(false)
-                .organizer("CMU").build());
+                .id(456L)
+                .name("Flora City")
+                .address("Fern Pollin")
+                .build());
         organizerRepository.save(Organizer.builder()
-                .category("Cultural")
-                .title("Loy Krathong")
-                .description("A time for Krathong")
-                .location("Ping River")
-                .date("21th Nov")
-                .time("8.00-10.00 pm.")
-                .petAllowed(false)
-                .organizer("ChiangMai").build());
+                .id(789L)
+                .name("Playa Del Carmen")
+                .address("Carey Wales")
+                .build());
         organizerRepository.save(Organizer.builder()
-                .category("Cultural")
-                .title("Songkran")
-                .description("Let's Play Water")
-                .location("Chiang Mai Moat")
-                .date("13th April")
-                .time("10.00am - 6.00 pm.")
-                .petAllowed(true)
-                .organizer("Chiang Mai Municipality").build());
+                .id(1001L)
+                .name("Woof Town")
+                .address("Dawg Dahd")
+                .build());
     }
 }
