@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2750acaa-a78e-4a37-920d-f171feffb925" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/rest/Lab07Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/rest/controller/EventController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/rest/dao/EventDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/rest/dao/EventDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/rest/entity/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/rest/service/EventService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se331/lab/rest/service/EventServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/se331/lab/rest/Lab07ApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="2750acaa-a78e-4a37-920d-f171feffb925" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +59,7 @@
       <workItem from="1630589430973" duration="38000" />
       <workItem from="1630589520212" duration="1714000" />
       <workItem from="1630591262521" duration="78000" />
+      <workItem from="1630604844019" duration="13000" />
     </task>
     <servers />
   </component>
