@@ -15,3 +15,4 @@ services:
     environment:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD: password
+
